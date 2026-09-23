@@ -6,7 +6,7 @@
 
 <main>
   <h1>Privacy Policy</h1>
-  <p class="date">Last updated: 29 August 2026</p>
+  <p class="date">Last updated: 23 September 2026</p>
 
   <p>Svenska ("the App") is developed by 0Quantum ("we", "us"), the data controller for
   the purposes of the GDPR. This policy explains what happens to your data when you
@@ -14,15 +14,16 @@
 
   <h2>The short version</h2>
   <p>There are no accounts and no sign-up. Everything you learn stays on your device.
-  The only data that ever leaves your device is what is needed to sell you a
-  subscription and to remember that you bought one, and even that is not tied to your
-  name or your email.</p>
+  Two kinds of data leave your device: what is needed to sell you a subscription and
+  to remember that you bought one, and anonymous usage statistics that you can switch
+  off. Neither is tied to your name or your email.</p>
 
   <h2>Data stored on your device</h2>
   <p>Your learning progress, meaning the words you know, review schedules, streak, XP,
   accuracy and settings, is stored locally in an on-device database. This data:</p>
   <ul>
-    <li>never leaves your device;</li>
+    <li>never leaves your device, apart from the coarse figures described under
+      <em>Anonymous usage statistics</em>, such as your level;</li>
     <li>is not readable by us or by any third party;</li>
     <li>is deleted permanently when you delete the App.</li>
   </ul>
@@ -58,13 +59,56 @@
   If you never buy anything, there is no purchase data to send.</p>
 
   <h2>What we do not do</h2>
-  <p>Beyond the purchase data described above, the App contains no advertising, no
-  analytics or tracking SDKs, no crash reporting, and no social network SDKs. Nothing
-  you study is measured or sent anywhere: which words you get wrong, how long you
-  spend, when you open the App and whether you come back are all invisible to us. We
+  <p>Beyond the purchase data and the anonymous usage statistics described on this page,
+  the App contains no advertising, no crash reporting, and no social network SDKs. We
   do not profile you, and we do not sell or share data with anyone for marketing.
   There is no cross-app or cross-site tracking, which is why the App never shows an
   App Tracking Transparency prompt.</p>
+
+  <h2>Anonymous usage statistics</h2>
+  <p>To see which parts of the App help people learn and which get in the way, the App
+  sends anonymous usage statistics to <a href="https://posthog.com/privacy">PostHog</a>,
+  an analytics service acting as our processor, using its EU cloud (servers in the
+  EU). What is sent:</p>
+  <ul>
+    <li>app events, such as a lesson started or finished, which features and screens
+      are opened, the subscription page being shown and the outcome of a purchase;</li>
+    <li>coarse context: your level (A1&ndash;C1), the interface language, whether you
+      have Svenska Pro, the app version, and rounded figures such as days since install
+      or a score band like &ldquo;80&ndash;99&nbsp;%&rdquo;;</li>
+    <li>basic device details: platform, device model, operating system version, screen
+      size, language and time zone setting;</li>
+    <li>a random identifier the App generates for your installation, so that events
+      from the same phone can be counted together.</li>
+  </ul>
+  <p>What is never sent: your name, your email, your Apple or Google account, the
+  advertising identifier, or your precise location, and never the text you type, say
+  or scan, your word lists, or the contents of your answers. Your IP address reaches
+  PostHog as part of the network request; the App asks PostHog not to use it to look
+  up your location. The statistics are not used for advertising, not linked to other
+  apps or websites, and not sold.</p>
+  <p>The legal basis is our legitimate interest in understanding, in aggregate, how the
+  App is used so we can improve it. You can object at any time: switch off
+  <em>Share anonymous usage stats</em> in the You tab and the App stops sending
+  statistics at once.</p>
+
+  <h2>Speaking exercises</h2>
+  <p>Speaking exercises use the microphone, and only after you allow it. Where your
+  phone has an on-device speech model for Swedish, your voice is recognised on the
+  phone and no audio leaves it. Where it does not, the App asks first, and only if
+  you agree is the audio sent to the speech recognition service of your phone's
+  maker &mdash; Apple's on iPhone and iPad, Google's on Android &mdash; and processed
+  under their privacy policies. On Android you can instead download Google's
+  on-device model. We never receive or store your audio or what you said.</p>
+
+  <h2>Letter scanner</h2>
+  <p>The scanner uses the camera, or a photo you pick, only after you allow it. The
+  text is recognised and translated on your phone, using Google ML Kit's on-device
+  text recognition and translation. Photos and recognised text are not uploaded, and
+  we never receive or store them. Translation needs a language model on the phone:
+  the first time, the App asks before downloading it from Google (about 30&nbsp;MB per
+  language), and after that translation works offline. The download sends Google
+  nothing from your photos or text.</p>
 
   <h2>Text to speech</h2>
   <p>Spoken words use the speech engine built into your device, which processes them
@@ -72,19 +116,26 @@
 
   <h2>Network access</h2>
   <p>Learning works fully offline. A connection is needed only to show prices, to
-  complete a purchase, and to restore one.</p>
+  complete a purchase, to restore one, and to send the anonymous usage statistics
+  described above (which simply wait when you are offline). Speaking exercises that
+  use Apple's or Google's online recognition, and the one-time download of
+  a scanner translation model, also need a connection.</p>
 
   <h2>Retention</h2>
   <p>On-device data lives until you delete the App. Purchase records held by RevenueCat
   are kept for as long as they are needed to honour what you bought and to meet
-  accounting obligations. Apple keeps its own transaction records under its own policy.</p>
+  accounting obligations. Apple keeps its own transaction records under its own policy.
+  Usage statistics are kept by PostHog for no longer than
+  12 months and are then deleted.</p>
 
   <h2>Your rights</h2>
   <p>Under the GDPR you can ask for access to, correction of, or erasure of the data
   described above, and you may complain to your local supervisory authority. Write to
   the address below and we will act within 30 days. Note that because the purchase
   identifier is random and carries no name or email, a request has to come with enough
-  detail for us to find the record, such as the date and type of your purchase.</p>
+  detail for us to find the record, such as the date and type of your purchase. The
+  usage statistics carry only a random identifier that we cannot link to you; the
+  simplest way to object to them is the switch in the You tab.</p>
 
   <h2>Children</h2>
   <p>The App is suitable for all ages. It asks no one for personal information, and it
