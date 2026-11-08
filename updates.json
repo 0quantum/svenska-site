@@ -1,0 +1,24 @@
+{
+  "svenska": {
+    "1.5.0": {
+      "uk": [
+        "Новий головний екран і розділ «Ви»: усе важливе — на одному екрані. Пройдіть короткий тур.",
+        "Власні слова: додавайте свої слова, складайте колоди або імпортуйте цілий список.",
+        "Інтенсив: точніша перевірка, пояснення помилок і нові вправи.",
+        "Нагадування тепер приходить приблизно тоді, коли ви зазвичай займаєтеся."
+      ],
+      "en": [
+        "A new Home and You: everything that matters on one screen. Take the short tour.",
+        "Your own words: add words, build your own decks or import a whole list.",
+        "Intensive: fairer checking, clear reasons for mistakes and new exercises.",
+        "Reminders now arrive around the time you usually study."
+      ],
+      "fi": [
+        "Uusi aloitusnäkymä ja Sinä-välilehti: kaikki tärkeä yhdellä näytöllä. Katso lyhyt esittely.",
+        "Omat sanat: lisää sanoja, tee omia pakkoja tai tuo kokonainen lista.",
+        "Intensiivi: reilumpi tarkistus, selitykset virheille ja uusia harjoituksia.",
+        "Muistutus tulee nyt suunnilleen siihen aikaan, jolloin yleensä opiskelet."
+      ]
+    }
+  }
+}
